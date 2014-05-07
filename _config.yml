@@ -1,0 +1,11 @@
+# Site settings
+name: SocialQ
+title: 
+email: info@socialq.com
+description: "Marketing Research Done Right!"
+baseurl: ""
+url: "https://www.socialq.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty
