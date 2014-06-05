@@ -441,3 +441,23 @@ li,
 		text-align:left;
 	}
 }
+
+
+/* SCROLL BARS */
+::-webkit-scrollbar {
+	background: #fff !important;
+	border:0 !important;
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(0,0,0,0.4);
+}
