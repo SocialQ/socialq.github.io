@@ -18,9 +18,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #5f5f5f; text-decoration: none; }
+a:hover   { color: #a2d28d; }
+a:visited { color: #7f7f7f; }
 
 /* Utility */
 
@@ -41,23 +41,9 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
-}
-
-.site-title,
-.site-title:hover,
-.site-title:visited {
-  display: block;
-  color: #333;
-  font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
 }
 
 .site-nav {
@@ -144,22 +130,35 @@ a:visited { color: #205caa; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
-
-.posts { list-style-type: none; }
-
-.posts li { margin-bottom: 30px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1;
+.home h1 {
+	display:none;
+	margin-bottom: 25px;
 }
 
-.posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
+.posts {
+	list-style-type: none;
+}
+
+.posts li {
+	margin-bottom: 60px;
+}
+
+.posts .post-link {
+	font-family:"Lato",sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 1;
+	line-height: 1;
+}
+
+.posts .post-date,
+.post-header .meta {
+	color: #818181;
+	display: block;
+	font-family:"Pacifico",sans-serif;
+	font-size: 16px;
+	letter-spacing:1px;
 }
 
 
@@ -169,16 +168,16 @@ a:visited { color: #205caa; }
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  font-size: 42px;
-  letter-spacing: -1.75px;
-  line-height: 1;
-  font-weight: 300;
+	font-family:"Lato",sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 1;
+	line-height: 1;
 }
 
 .post-header .meta {
-  font-size: 15px;
-  color: #818181;
-  margin-top: 5px;
+	margin-top: 5px;
 }
 
 .post-content { margin: 0 0 30px; }
