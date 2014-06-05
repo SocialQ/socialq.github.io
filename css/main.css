@@ -1,22 +1,24 @@
-/* Base */
-/* ----------------------------------------------------------*/
-
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-html, body { height: 100%; }
+html, body {
+	height: 100%;
+}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  background-color: #fdfdfd;
+	background-color: #fdfdfd;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: 400;
+}
 
 a {
 	color: #303030;
@@ -49,10 +51,10 @@ li,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 30px;
+	zoom: 1;
 }
 
 
@@ -68,15 +70,14 @@ li,
 }
 
 .site-nav {
-  float: right;
-  line-height: 56px;
+	float: right;
+	line-height: 56px;
 }
 
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
-  margin-left: 20px;
-  letter-spacing: -.5px;
+	margin-left: 20px;
 }
 
 /* Site footer */
