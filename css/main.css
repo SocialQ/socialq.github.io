@@ -42,9 +42,9 @@ a:visited { background: #7f7f7f; }
 /* Site header */
 
 .site-header {
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  background-color: white;
+	background:#fff;
+	border-bottom: 1px solid #f0f0f0;
+	min-height: 56px;
 }
 
 .site-nav {
@@ -123,7 +123,7 @@ a:visited { background: #7f7f7f; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #fff;
 }
 
@@ -133,7 +133,6 @@ a:visited { background: #7f7f7f; }
 
 .home h1 {
 	display:none;
-	margin-bottom: 25px;
 }
 
 .posts {
@@ -141,7 +140,7 @@ a:visited { background: #7f7f7f; }
 }
 
 .posts li {
-	margin-bottom: 60px;
+	padding: 2em 0.75em;
 }
 
 .posts .post-link {
@@ -149,7 +148,6 @@ a:visited { background: #7f7f7f; }
 	font-size: 2em;
 	font-weight: 300;
 	letter-spacing: 0.1em;
-	line-height: 1;
 	line-height: 1;
 }
 
