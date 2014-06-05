@@ -19,9 +19,14 @@ body {
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a {
-	color: #5f5f5f;
+	color: #303030;
 	font-weight:700;
 	text-decoration: none;
+}
+.site-nav a,
+.site-footer a,
+.site-footer p {
+	color:rgba(0,0,0,0.3);
 }
 a:hover,
 .site-nav a:hover {
@@ -30,7 +35,7 @@ a:hover,
 
 a,
 li,
-.static-nav a {
+.site-nav a {
 	-webkit-transition: all 300ms linear;
 	-moz-transition: 	all 300ms linear;
 	-o-transition: 		all 300ms linear;
@@ -71,7 +76,6 @@ li,
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
   letter-spacing: -.5px;
 }
 
@@ -100,6 +104,7 @@ li,
   margin-right: 10px
 }
 .footer-col-2 {
+	text-align:center;
   width: 175px; /*fallback*/
   width: -webkit-calc(23.125% - 10px);
   width: -moz-calc(23.125% - 10px);
@@ -121,7 +126,12 @@ li,
 .site-footer p {
   font-size: 15px;
   letter-spacing: -.3px;
-  color: #828282;
+}
+.site-footer p {
+	font-family:"Pacifico";
+	letter-spacing:1px;
+	text-align:right;
+	text-transform:;
 }
 
 .github-icon-svg,
@@ -155,7 +165,7 @@ li,
 }
 
 .posts li {
-	padding: 2em 0.75em;
+	padding: 2.5em 0.75em;
 }
 
 .posts .post-link {
@@ -168,7 +178,7 @@ li,
 
 .posts .post-date,
 .post-header .meta {
-	color: #818181;
+	color: rgba(0,0,0,0.4);
 	display: block;
 	font-family:"Pacifico",sans-serif;
 	font-size: 16px;
@@ -235,13 +245,13 @@ li,
 }
 
 .post-content blockquote {
-  border-left: 4px solid #e8e8e8;
-  padding-left: 20px;
-  font-size: 18px;
-  opacity: .6;
-  letter-spacing: -1px;
-  font-style: italic;
-  margin: 30px 0;
+	border-left: 4px solid #e8e8e8;
+	padding-left: 20px;
+	font-size: 18px;
+	opacity: .6;
+	letter-spacing: -1px;
+	font-style: italic;
+	margin: 30px 0;
 }
 
 .post-content ul,
@@ -423,5 +433,9 @@ li,
     clear: both;
     width: auto;
     margin: 0 0 15px; }
+	
+	.site-footer p {
+		text-align:left;
+	}
 
 }
