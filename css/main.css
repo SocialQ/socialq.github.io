@@ -273,14 +273,12 @@ li,
 
 .post pre,
 .post code {
-	background-color: #eef;
-	border: 1px solid #d5d5e9;
+	background-color: #f4f4f4;
+	border: 1px solid #d5d5d5;
+	/*background-color: #eef;
+	border: 1px solid #d5d5e9;*/
 	font-size: 15px;
 	padding: 8px 12px;
-	
-	-webkit-border-radius:	3px;
-	-moz-border-radius:		3px;
-	border-radius:			3px;
 }
 
 .post code {
